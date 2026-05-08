@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Test booking</title>
+  <link rel="stylesheet" href="page2.css">
+  <link rel="icon" href="logoo.jpg">
+</head>
+<body>
+  <header>
+    <div class="logo">QuickCureHealth</div>
+    <button class="signin" id="back">back</button>
+  </header>
+
+  <main>
+    <input type="text" id="testSearch" placeholder="Search for a medical test..." oninput="searchTests()" />
+    <div id="results" class="results-container"></div>
+  </main>
+
+  <div id="testModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <h2 id="selectedTestTitle"></h2>
+      <p id="price"></p>
+      <form id="appointmentForm" >
+        <label for="fullName" style="font-weight:600;margin-top:10px;">Full Name</label>
+        <input id="fullName" type="text" placeholder="Enter your full name" required>
+        <label for="email" style="font-weight:600;margin-top:10px;">Email</label>
+        <input id="email" type="email" placeholder="Enter your email" required>
+        <label for="phone" style="font-weight:600;margin-top:10px;">Phone Number</label>
+        <input id="phone" type="tel" placeholder="Enter your phone number" required>
+        <label for="age" style="font-weight:600;margin-top:10px;">Age</label>
+        <input id="age" type="number" placeholder="Enter your age" required>
+        <label for="date" style="font-weight:600;margin-top:10px;">Test Date</label>
+        <input id="date" type="date" required>
+        <label for="time" style="font-weight:600;margin-top:10px;">Test Time</label>
+        <input id="time" type="time" required>
+        <button type="submit">Proceed to Payment</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="page2.js"></script>
+</body>
+</html>
