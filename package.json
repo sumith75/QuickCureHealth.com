@@ -2,16 +2,16 @@
   "engines": {
     "node": ">=22"
   },
-  "name": "crud",
+  "name": "quickcurehealth",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "sumith75",
   "license": "ISC",
-  "description": "Perfect 👍 — here’s your updated **README.md** content with the **deployment link** included instead of setup instructions:",
+  "description": "QuickCureHealth - Healthcare Platform with Doctor Consultations and Medical Services",
   "dependencies": {
     "@stripe/stripe-js": "^7.4.0",
     "axios": "^1.8.4",
@@ -42,10 +42,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Aash0811/QuickCureHealth.git"
+    "url": "git+https://github.com/sumith75/QuickCureHealth.com.git"
   },
   "bugs": {
-    "url": "https://github.com/Aash0811/QuickCureHealth/issues"
+    "url": "https://github.com/sumith75/QuickCureHealth.com/issues"
   },
-  "homepage": "https://github.com/Aash0811/QuickCureHealth#readme"
+  "homepage": "https://github.com/sumith75/QuickCureHealth.com#readme"
 }
